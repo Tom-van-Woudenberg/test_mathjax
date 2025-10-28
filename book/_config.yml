@@ -85,7 +85,7 @@ sphinx:                                              # Options passed on to the 
     tippy_doi_api: "https://api.crossref.org/works/" # Default value (line can be removed), sets the API to use for DOI tooltips, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
     #tippy_doi_template                              # Default value not shown (line can be removed), sets the jinja template to use for formatting DOI data to tooltips, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
     #tippy_custom_tips                               # Default value not shown (line can be removed), creates custom tips, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
-    #tippy_enable_mathjax: true                       # Default value (line can be removed), enables tooltips for math equations, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
+    tippy_enable_mathjax: false                      # Default value (line can be removed), enables tooltips for math equations, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
     #tippy_js                                        # Default value not shown (line can be removed), sets the Javascript required to enable tooltips, configuration part of TeachBooks-Sphinx-Tippy (https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html)
 
 
